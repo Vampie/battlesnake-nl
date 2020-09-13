@@ -1,6 +1,6 @@
 # Coderdojo Battlesnake
 
-## SlangenBrein
+## SlangenBrein (brein.py)
 Subclass van deze klasse om je eigen slang te maken.
 
 ## Eigenschappen
@@ -20,4 +20,20 @@ Het bord bestaat uit x * y cellen. Een cel kan een lege cel zijn, een cell met e
 
 ### Honger
 ```def heeft_honger()```
-Overschrijf deze methode en programmeer hier wanneer je slang honger heeft, wanneer hij sneller voedsle moet zien te vinden.
+Overschrijf deze methode en programmeer hier wanneer je slang honger heeft, wanneer hij sneller voedsel moet zien te vinden.
+
+## Customisatie
+In je eigen slang, kun je het uiterlijk aanpassen.
+De codes vind je hier: https://docs.battlesnake.com/references/personalization
+
+```
+  @classmethod
+  def uiterlijk(cls):
+    return {
+      "apiversion": "1",
+      "author": "soetkin",
+      "color": "#FFC0CB",
+      "head": "safe",
+      "tail": "round-bum",
+      }
+```

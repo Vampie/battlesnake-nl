@@ -8,9 +8,9 @@ class Soetkin(SlangenBrein):
     return {
       "apiversion": "1",
       "author": "soetkin",
-      "color": "#FFC0CB",
-      "head": "safe",
-      "tail": "round-bum",
+      "color": "#000000",
+      "head": "shac-gamer",
+      "tail": "shac-mouse",
       }
 
   def bereken_waarde_voor_richting(self, richting):
